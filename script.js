@@ -14,7 +14,7 @@ function validateInput() {
   } else if (ans === "elephant") {
     // remove display none class
     main.classList.remove("none-display");
-    body.style.height = "100%";
+    body.style.height = "auto";
     // add display none to question-container class
     questionContainer.classList.add("none-display");
   } else {
