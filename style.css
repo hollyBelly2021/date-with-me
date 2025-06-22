@@ -31,6 +31,7 @@ label {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 50%;
 }
 .photo-container {
   display: flex;
@@ -105,5 +106,11 @@ input[type="radio"] {
 
   h1 {
     font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  h1 {
+    font-size: 4rem;
   }
 }
