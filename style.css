@@ -11,7 +11,7 @@ body {
   /* display: flex;
   align-items: center;
   justify-content: center; */
-  /* height: 100vh; */
+  height: 120vh;
 }
 
 main {
@@ -93,6 +93,40 @@ input[type="radio"] {
 
 .delay-4 {
   animation-delay: 3s;
+}
+
+.none-display {
+  display: none;
+}
+
+.q {
+  margin: 0;
+  font-size: 1.3rem;
+  color: rgb(137, 137, 137);
+}
+
+.question-container {
+  /* height: 100vh; */
+  /* align-items: center; */
+  margin-bottom: 10rem;
+}
+
+.question {
+  padding: 2rem;
+  border: solid 1px white;
+  line-height: 3rem;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+
+.input-box {
+  width: 200px;
+  font-size: 1rem;
+  padding: 8px;
+}
+
+.question-button {
+  padding: 8px;
 }
 
 @keyframes fadeIn {
