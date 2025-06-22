@@ -74,7 +74,7 @@ input[type="radio"] {
   accent-color: rgb(232, 89, 36); /* your custom color */
 }
 
-.fade-in {
+/* .fade-in {
   opacity: 0;
   animation: fadeIn 2s ease-in forwards;
 }
@@ -93,7 +93,7 @@ input[type="radio"] {
 
 .delay-4 {
   animation-delay: 3s;
-}
+} */
 
 @keyframes fadeIn {
   to {
@@ -121,15 +121,17 @@ input[type="radio"] {
   }
 
   .info-section {
-    /* text-align: center; */
-    margin: 1rem;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    text-align: center;
-    /* margin-left: 2rem; */
-    max-width: 700px;
+    width: 400px;
+    max-width: 600px;
+    margin-left: 9rem;
+    /* margin: 1rem auto; */
     padding: 1rem;
+    text-align: center;
+  }
+  .photo-container .photo-2 {
+    max-width: 50%;
+    height: 635px;
+    object-fit: cover;
   }
 }
 
