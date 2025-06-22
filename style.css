@@ -8,6 +8,9 @@ body {
   background-color: rgb(26, 26, 26);
   margin: 1rem;
   color: white;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 
 main {
@@ -31,7 +34,7 @@ label {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 50%;
+  width: 600px;
 }
 .photo-container {
   display: flex;
@@ -71,8 +74,8 @@ input[type="radio"] {
 }
 
 .fade-in {
-  opacity: 0; /* Start invisible */
-  animation: fadeIn 2s ease-in forwards; /* 2s animation */
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
 }
 
 .delay-1 {
@@ -96,8 +99,15 @@ input[type="radio"] {
     opacity: 1; /* Fade to fully visible */
   }
 }
-
+/* anything <= 991*/
 @media screen and (max-width: 991px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+  }
+
   main {
     display: flex;
     flex-direction: column;
@@ -105,12 +115,25 @@ input[type="radio"] {
   }
 
   h1 {
-    font-size: 5rem;
+    font-size: 4rem;
+  }
+
+  .info-section {
+    text-align: center;
+    /* margin: 1rem; */
+    margin-left: 2rem;
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (min-width: 1199px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
   h1 {
-    font-size: 4rem;
+    max-width: 600px;
   }
 }
