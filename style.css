@@ -96,7 +96,7 @@ input[type="radio"] {
   }
 }
 
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
   main {
     display: flex;
     flex-direction: column;
