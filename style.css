@@ -154,6 +154,10 @@ input[type="radio"] {
     /* text-align: center; */
   }
 
+  .input-box {
+    width: 60%;
+  }
+
   .info-section {
     width: 400px;
     max-width: 600px;
