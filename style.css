@@ -120,9 +120,13 @@ input[type="radio"] {
   }
 
   .info-section {
+    /* text-align: center; */
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    /* margin: 1rem; */
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
+    max-width: 600px;
   }
 }
 
