@@ -127,6 +127,7 @@ input[type="radio"] {
     text-align: center;
     /* margin-left: 2rem; */
     max-width: 600px;
+    flex-wrap: wrap;
   }
 }
 
