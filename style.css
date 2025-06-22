@@ -11,6 +11,7 @@ body {
   /* display: flex;
   align-items: center;
   justify-content: center; */
+  /* height: 100vh; */
 }
 
 main {
@@ -130,7 +131,7 @@ input[type="radio"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height: 100vh; */
   }
 
   h1 {
